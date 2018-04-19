@@ -1,0 +1,573 @@
+/*すべてのページに共通する内容(ヘッダー、パンくずリスト)を記述*/
+body{
+/*  padding-bottom: 15%;*/
+}
+
+.pankuzu {/*pankuzuクラス*/
+  margin: 0;
+  text-align: left;
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding-top: 40px;
+}
+
+.footer-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+a[class="navbar-brand"][href="http://www.itolab.nitech.ac.jp/SIG-CCI/"] p{
+  /**/
+  background: #EEE;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: #111;
+  padding: 5px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+a[class="navbar-brand"][href="http://www.itolab.nitech.ac.jp/SIG-CCI/"] p:hover{
+  background: orange;
+  border: 2px solid #DDD;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  color: white;
+  padding: 5px;
+}
+
+ul[class="nav navbar-nav"] a[href*="index.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e021";/*Halfings での　家マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="about.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e022";/*Halfings での　書類マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="schedule.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e032";/*Halfings での　リストマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="prepare.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e043";/*Halfings での　辞書マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="fieldWork.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e199";/*Halfings での　木マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="traffic.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e062";/*Halfings での　マーカーマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="lodge.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e139";/*Halfings での　カバンマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="https://docs.google.com/forms/d/e/1FAIpQLSccq7rBK6RILBOYagBNv9LYFpUwVmmG7RSfHxAP71CyTbNYmg/viewform"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e067";/*Halfings での　ペンマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="sponsor.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e148";/*Halfings での　ドルマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e086";/*Halfings での　インフォメーションマーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="http://www.itolab.nitech.ac.jp/SIG-CCI/submission.html"]:hover{
+  color: red;
+}
+
+ul[class="nav navbar-nav"] a[href*="https://form.jotform.me/70938432366462"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e171";/*Halfings での　紙飛行機マーク*/
+}
+
+ul[class="nav navbar-nav"] a[href*="https://form.jotform.me/70938432366462"]:hover{
+  color: red;
+}
+
+
+.txt {/*txtクラス*/
+  margin:0;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+div[class=item_txt] .txt {/* class=item_txt の div の下の txtクラス*/
+  margin:0;
+  text-align:left;
+  padding-bottom: 0px;
+}
+
+div[class=item_txt] .ttl{/* class=item_txt の div の下の ttlクラス*/
+  text-align: left;
+  padding-bottom: 70px;
+}
+
+img{
+  max-width: 100%;
+}
+
+li[class="headMenu"] a{/* class="headMenu" を持つ li の中の a 要素*/
+  color: lightSeaGreen;
+}
+
+div#headerArea {
+    font-size : 87.5%;
+}
+
+@media screen and (min-width : 768px){
+    div#headerArea{ font-size : 100%;}
+}
+
+@media screen and (min-width : 1024px) {
+    div#headerArea{ font-size : 140%};
+}
+
+div#headerArea {/*div の内 id=headerArea であるもの*/
+    position: fixed !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    z-index: 1031;
+}
+
+li.headMenu{/*li の内 class=headMenu であるもの*/
+  display: block;
+  float: left;
+  width:16%;/*width:250px;*/
+  height :100%;/*height:50px;*/
+  background-color:#000000;
+  border-style: double;
+  border-width: thin;
+  border-color: white;
+  text-align: center;
+  color: lightSeaGreen;
+}
+
+li.headMenu:hover{/*li の内 class=headMenu であるものにマウスが乗った時　書かれている要素のみ上書きされる*/
+  color: indianRed;
+  text-decoration: none;
+}
+
+* html div#contentsArea{
+    height: 100%;
+    overflow: auto;
+}
+
+div#footerArea {/*div の内 id=footerArea であるもの*/
+    position: fixed !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #4E9ABE;
+    color: #fff;
+    z-index: 1031;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand{
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 60px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand{
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 80px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.comment_item .item_img{
+  float: left;
+  text-align: left;
+  margin: 0 20px 0 0;
+  width: 50%;
+}
+/*メッセージ、コンテンツ用*/
+h3[class~="download"]{
+    border-left: 5px solid aquamarine;
+    border-bottom: 1px solid #48832C;
+    padding-left: 7px;
+}
+
+h5[class="MessageContent"]{
+  border-left: 3px solid #48832C;
+  padding-left: 7px;
+  margin-left: 5px;
+  text-align: left;
+  font-size: 18px;
+  float: left;
+}
+
+h5[class="MessageContent2"]{
+  border-bottom: 3px solid grey;
+  float: left;
+}
+
+h5[class="Emphasis"]{
+  font-size: 18px;
+  text-align: center;
+}
+
+h5[class="Emphasis2"]{
+  font-size: 24px;
+  text-align: center;
+  vertical-align:middle;
+}
+
+h5[class="Emphasis3"]{
+  font-size: 40px;
+}
+
+p[class="Emphasis_p1"]{
+  font-size: 24px;
+}
+
+h5[class="Sub"]{
+  font-size: 10px;
+  color: gray;
+}
+
+dd[class~="list"]{
+  font-size: 12px;
+}
+
+@media screen and (min-width : 768px){/*横幅が768pxを上回った時*/
+  dd[class~="list"]{font-size: 14px;}
+}
+
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  dd[class~="list"]{font-size: 16px;}
+}
+
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+  dd[class~="list"]{font-size: 18px;}
+}
+
+img[class~="logo"]{
+/*  border-style: solid;
+  border-width: 1px;
+  border-color: black;*/
+  max-width: 60%;
+}
+
+.diary_txt {/*diary_txtクラス*/
+  margin:0;
+  text-align: left;
+  padding-bottom: 0px;
+}
+
+/*about.html*/
+figure[id="Timetable"] img{
+  max-width: 170%;
+}
+
+/*about.html タイムテーブル*/
+img[class~="single-Tt"]{
+  max-width: 60%;
+}
+
+/*prepare.html*/
+div[class~="row"] img[class~="double"]{
+  width: 100%;
+  height: 100%;
+}
+
+div[class~="row"] img[class~="single"]{
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width : 768px) {/*横幅が768pxを上回った時*/
+  div[class~="row"] img[class~="double"]{
+    width: 80%;
+    height: 80%;
+  }
+  div[class~="row"] img[class~="single"]{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+  }
+
+  img[id="fw_table"]{
+    position: relative;
+    left: -30px;
+    max-width: 120%;
+    width: 120%;
+    height: auto;
+  }
+
+}
+
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  div[class~="row"] img[class~="double"]{
+    width: 85%;
+    height: 85%;
+  }
+  div[class~="row"] img[class~="single"]{
+    width: 45%;
+    height: 45%;
+  }
+
+  img[id="fw_table"]{
+    position: relative;
+    left: -100px;
+    max-width: 160%;
+    width: 160%;
+    height: auto;
+  }
+}
+
+/*traffic.html*/
+figure[id="0630Route"] img{
+  max-width: 150%;
+}
+
+figure[id="0701Route"] img{
+  max-width: 150%;
+}
+
+figure[class~="pattern5"]{
+  overflow: auto;
+}
+
+a[class~="Link1"]{
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+a[class~="Link2"]{
+  color: magenta;
+  text-decoration: underline;
+}
+
+a[class~="Link3"]{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width : 1224px) {/*横幅が1024pxを上回った時*/
+  p.item_txt {
+      height: 120px;
+  }
+
+
+/* fieldWork.html*/
+  p.item_txt_lg {
+      height: 150px;
+  }
+}
+
+
+h4.fw-title {
+      font-size: 23px;
+      font-weight: bold;
+  }
+
+  h4.fw-title-sm {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  h4.fw-title {
+      font-size: 26px;
+      font-weight: bold;
+  }
+
+  h4.fw-title-sm {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+  }
+}
+
+/* registration.html */
+.warning{
+  color:red;
+}
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  hr.hr-sm {
+    display: inline;
+  }
+}
+
+/* lodge.html */
+a[class~="Link3"]::before{
+  font-family: 'Glyphicons Halflings';
+  content: "\e165";/*Halfings での　ペンマーク*/
+}
+
+/*タイトルバー　開始*/
+div[class="contents"]{
+  margin-top: 17%;
+}
+
+div[class="ribbon-wrap"]{
+  background-color: #f8f8f8;
+  border-bottom: thin ridge #f8f9f9;
+}
+
+h1[class="ribbon-banner"]{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ol[class="ribbon-breadcrumb-list"]{
+  font-size: 6px;
+  padding-left: 0px;
+}
+
+ol[class="ribbon-breadcrumb-list"] li{
+  list-style: none;
+}
+
+ol[class="ribbon-breadcrumb-list"] li a{
+  color: #777;
+}
+
+ol[class="ribbon-breadcrumb-list"] li a:hover{
+  color: indianRed;
+}
+
+@media screen and (min-width : 768px) {/*横幅が768pxを上回った時*/
+  div[class="contents"]{
+    margin-top: 21%;
+  }
+  ol[class="ribbon-breadcrumb-list"]{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+  div[class="contents"]{
+    margin-top: 16%;
+  }
+}
+
+@media screen and (min-width : 1200px) {/*横幅が1024pxを上回った時*/
+  div[class="contents"]{
+    margin-top: 13%;
+  }
+}
+
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+  div[class="contents"]{
+    margin-top: 8.5%;
+  }
+  h1[class="ribbon-banner"]{
+    font-size: 50px;
+  }
+}
+
+li[class~="ribbon-breadcrumb-item"]{
+  display: inline;
+}
+
+li[class="ribbon-breadcrumb-item"] ::after{
+  font-family: 'Glyphicons Halflings';
+  content: "\e080";/*Halfings での　右向き矢印マーク*/
+}
+
+.log-wrap {
+  height: 45px;
+    padding: 5px;
+    margin: auto;
+    border: 1px
+    solid #333333;
+    max-width: 50%;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.log-wrap a {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 10;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    margin-top: -20px;
+}
+
+ol.ribbon-breadcrumb-list {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+span.ribbon-breadcrumb {
+    font-weight: 600;
+}
+
+a.ribbon-breadcrumb {
+    padding-right: 5px;
+}
+.top-title {
+  font-weight: 800;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+a.navbar-brand.navbar-title {
+    font-weight: 700;
+    padding-left: 40px;
+    font-size: 18px;
+}
+@media screen and (min-width : 768px) {
+  a.navbar-brand.navbar-title {
+    padding-left: 60px;
+    font-size: 20px;
+  }
+}
+
+label.open.side {
+    position: fixed;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 1.8;
+  margin-left: -40px;
+}
+
+/*タイトルバー　終了*/
