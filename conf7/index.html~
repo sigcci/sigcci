@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<!-- 2019/5/23 制作:福田直樹,fron copy of conf4/index.html -->
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>第6回市民共創知研究会 | 市民共創知研究会(JSAI SIG-CCI)</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99049176-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+<body>
+  <!-- ロード画面開始 -->
+  <!-- ロード画面終了 -->
+
+  <!-- 通常画面開始 -->
+  <div id="wrap">
+    <!-- ヘッダー(ナビバー )開始 -->
+    <div class="nav-ber">
+      <nav class="navbar navbar-default navbar-top">
+
+        <div class="container" style="margin-left: 30px;">
+
+          <div class="navbar-header">
+            <!--タイトル-->
+            <a class="navbar-brand navbar-title" href="index.html">第6回市民共創知研究会</a>
+            <!--トグルボタンの設置-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+              <span class="icon-bar"></span><!-- トグルボタンの横棒　その１  -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+          <div id="nav-content" class="collapse navbar-collapse">
+            <!--リンクのリスト メニューリスト-->
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="../about.html">研究会について</a></li>
+              <li><a href="html/schedule.html">スケジュール</a></li>
+              <li><a href="html/sponsor.html">スポンサー</a></li>
+              <li><a href="https://forms.gle/Xoarx4eZHddiRQsaA">参加申し込み</a></li>
+              <li><a href="../submission.html">原稿執筆案内</a></li>
+            </ul>
+          </div>
+
+          <!-- サイドメニュー開始 -->
+          <input type="checkbox" id="navTgl" class="navbar-toggle">
+          <label for="navTgl" class="open side">≡</label>
+          <label for="navTgl" class="close"></label>
+          <nav class="menu">
+            <h2>menu</h2>
+            <ul>
+              <li><a href="#" class="scroll">ページトップ</a></li>
+            </ul>
+          <!-- サイドメニュー終了 -->
+          </nav>
+        </div>
+      </nav>
+    </div>
+    <!-- ヘッダー終了 -->
+
+    <!-- パンくずリスト開始 -->
+    <div class="ribbon-wrap" style="margin-top: -20px;">
+      <div class="content-wrap">
+        <ol class="ribbon-breadcrumb-list">
+          <li class="ribbon-breadcrumb-item"><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/" class="ribbon-breadcrumb">市民共創知研究会HP</a></li>
+          <li class="ribbon-breadcrumb-item Last"><span class="ribbon-breadcrumb">ホーム</span></li>
+        </ol>
+      </div>
+    </div>
+    <!-- パンくずリスト終了 -->
+    
+    <!-- 主文開始 -->
+    <div class="container">
+      <div class="row">
+
+      <!-- 左メニュー始め -->
+      <div class="col-xs-12 col-sm-8">
+        <br><br>
+        <h5 class="Emphasis2" style="font-size: 15px;">
+            第6回市民共創知研究会
+        </h5>
+        <br>
+        <p>
+			2019年11月23日，慶應義塾大学 矢上キャンパスで開催される<a href="http://www.ai-gakkai.or.jp/sigconf/">人工知能学会 合同研究会2019</a>の一環として，第6回研究会を開催致します．
+			市民の共創・協働により創発される集合知や，研究者・技術者と市民のコミュニケーション，地方創生，社会シミュレーション，その他の共創的な事例などの発表を募集します．
+        </p>
+
+        <p>
+	  今回は，市民共創の実事例としてのシビックテックや，共創に資するオープンデータなどの観点から，国内外で展開されている取り組みを踏まえた議論を展開する予定です．招待講演として，オープンデータのコンテスト「アーバンデータチャレンジ」や「インフラデータチャレンジ」の運営に携わる東京大学空間情報科学研究センターの瀬戸寿一先生にご講演頂く予定です．
+	  
+        </p>
+
+        <div class="overview">
+          <h5 class="Emphasis2" style="font-size: 20px; padding-top:20px;">人工知能学会 市民共創知研究会 第6回研究会</h5>
+          <dl class="">
+            <dt>会期：</dt>
+              <dd>2019年11月23日（土）</dd>
+            <dt>会場：</dt>
+            <dd>慶應義塾大学 矢上キャンパス 12棟101</dd>
+            <dt>主催：</dt>
+              <dd>人工知能学会 市民共創知研究会</dd>
+	    <dt>発表申込：</dt>
+	    <dd><a href="https://ai-gakkai.or.jp/sig-system/confusers/presenter_add/sigconf2019/cci">申込フォーム</a></dd>
+            <dt>発表申込締切：</dt>
+            <dd>2019年9月<s>25日</s> 29日<br></dd>
+            <dt>原稿提出締切：</dt>
+            <dd>2019年11月8日<br>
+	    </b><br>発表申込み・原稿執筆・投稿方法は，「<a href="../submission.html">原稿執筆案内</a>」をご参照ください．</dd>
+	    <dt>研究会参加費</dt>
+	    <dd><del>一般: 2000円，学生: 1000円</del> 無料</dd>
+            <dt>プログラム</dt>
+<dd>
+  <ul>
+<li>9:00-9:10　開会挨拶
+<li>9:10-9:40　<a href="pdf/SIG-CCI-006-01.pdf">研究者と市民の共創を創出する方法論の探索</a><br>
+　○堀田 竜士, 伊藤 孝行（名古屋工業大学）
+<li>9:40-10:10　<a href="pdf/SIG-CCI-006-02.pdf">Webコンテンツ中の社会問題とその解決ミッションの抽出手法の検討</a><br>
+　○神谷 晃, 白松 俊, 長谷川 徳賢（名古屋工業大学）
+<li>10:10-10:40　<a href="pdf/SIG-CCI-006-03.pdf">「OSSの品質管理」に対する市民共創方法：データ可視化プラットホームE2D3の事例紹介</a><br>
+　○五十嵐康伸，一円真治，江畑彩，大曽根圭輔，小副川健，小野恵子，河野麻衣子，佐藤奈津紀，澤徳彦，篠原剛，清水正行，鈴木典子，竹内秀行，都築祐善，長久武，西野貴志，林美帆，林由佳，久住裕司，平河広輝，槙田直木，松崎剛，蓑田恭秀，宮内元，村上康雄．村瀬真琴，八木啓，山田祐資，山本智，山本優，綿貫順一（E2D3.org）
+<li>10:40-11:10　<a href="pdf/SIG-CCI-006-04.pdf">山陽小野田市のデマンド型交通向け巡回経路探索用QGISプラグインにおける簡易経路探索モードの設計</a><br>
+　○山本 頼弥, 糸賀 拓馬, 井上 啓（山陽小野田市立山口東京理科大学）
+<li>11:10-11:20　休憩
+<li>11:20-12:00　招待講演「地域課題解決に向けた共創〜参加型による地理空間情報の共有〜」<br>
+　○瀬戸 寿一（東京大学 空間情報科学研究センター）
+<li>12:00-13:20　昼休み
+<li>13:20-14:30　【合同企画】 AI ELSI賞表彰式および倫理委員会企画招待講演（14棟MMR）
+<li>14:30-15:00　休憩
+<li>15:00-17:00　AIファシリテーションによるD-Agree議論実験
+</ul>
+</dd>
+</dl>
+
+
+
+</div>
+      </div>
+      <!-- 左メニュー終わり -->
+
+      <!-- 右メニュー開始 -->
+
+
+          <h3>目次</h3>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="../about.html">研究会について</a></li>
+          <li><a href="html/schedule.html">スケジュール</a></li>
+          <li><a href="html/sponsor.html">スポンサー</a></li>
+          <li><a href="https://forms.gle/Xoarx4eZHddiRQsaA">参加申し込み</a></li>
+          <li><a href="../submission.html">原稿執筆案内</a></li>
+        </ul>
+        <!--h3>過去の研究会</h3-->
+        <h3>関連リンク</h3>
+        <ul>
+          <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/" target="_blank">市民共創知研究会</a></li>
+          <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/confs/sig-cci1.html" target="_blank">第1回市民共創知研究会@岩手県遠野市 遠野ふるさと村</a></li>
+          <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf2/index.html" target="_blank">第2回市民共創知研究会@長崎県対馬市</a></li>
+          <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf3/index.html" target="_blank">第3回市民共創知研究会@愛知県名古屋市</a></li>
+          <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf4/index.html" target="_blank">第4回市民共創知研究会@石川県</a></li>
+          <li><a href="http://mirailab.srmt.nitech.ac.jp/" target="_blank">みらいらぼ</a></li>
+        </ul>
+        <!---
+        <h3 class="download">ダウンロード</h3>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Common/20170606_SIGCCI02_Guide.pdf')">研究会のしおり</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="Files/Common/20170606_SIGCCI02_Guide.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/Common/20170606_SIGCCI02_Guide.pdf" download="20170606_SIGCCI02_Guide.pdf">ダウンロード</a></li>
+          </ul>
+        </div>
+        <br><br>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Common/20170606_SIGCCI02_CFP.pdf')">論文募集要項　</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="Files/Common/20170606_SIGCCI02_CFP.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/Common/20170606_SIGCCI02_CFP.pdf" download="20170606_SIGCCI02_CFP.pdf">ダウンロード</a></li>
+          </ul>
+        </div>
+      </div>
+      <!---->
+      <!-- 右メニュー終わり -->
+
+    </div>
+  </div>
+    <!-- 主文終了 -->
+    <div style="height: 50px;"></div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">目次</p>
+            <ul class="footer-list">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="html/about.html">研究会について</a></li>
+              <li><a href="html/schedule.html">スケジュール</a></li>
+              <li><a href="html/sponsor.html">スポンサー</a></li>
+              <li><a href="https://forms.gle/Xoarx4eZHddiRQsaA">参加申し込み</a></li>
+              <li><a href="../submission.html">原稿執筆案内</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">関連リンク</p>
+            <ul class="footer-list">
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/" target="_blank">市民共創知研究会</a></li>
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/confs/sig-cci1.html" target="_blank">第1回市民共創知研究会@岩手県遠野市 遠野ふるさと村</a></li>
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf2/index.html" target="_blank">第2回市民共創知研究会@長崎県対馬市</a></li>
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf3/index.html" target="_blank">第3回市民共創知研究会@愛知県名古屋市</a></li>
+              <li><a href="http://www.itolab.nitech.ac.jp/SIG-CCI/conf4/index.html" target="_blank">第4回市民共創知研究会@石川県</a></li>
+              <li><a href="http://mirailab.srmt.nitech.ac.jp/" target="_blank">みらいらぼ</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">ダウンロード</p>
+            <ul class="footer-list">
+            </ul>
+          </div>
+        </div>
+
+        <br>
+        <div class="text-center" style="color: #777">
+          <h4 style="border-left: none;">第5回市民共創知研究会</h4>
+          <p>© 2019 JSAI Special Interest Group on Crowd Co-creation</p>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+  <!-- 通常画面終了 -->
+
+  <!-- BootstrapのCSS読み込み -->
+   <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- jQuery読み込み -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <!-- BootstrapのJS読み込み -->
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <script src="js/Scroll.js"></script>
+   <link rel="stylesheet" href="css/BS_OverWrite.css">
+   <link rel="stylesheet" href="css/FlexBoxStyle.css">
+   <link rel="stylesheet" href="css/base1.css">
+   <link rel="stylesheet" href="css/SideMenu.css">
+   <link rel="stylesheet" href="css/Common.css">
+   <link rel="stylesheet" href="css/Loading.css">
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/confs/sig-cci1.css" />
+   <link rel="stylesheet" href="css/ihover.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+</body>
+</html>
