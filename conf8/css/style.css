@@ -7,6 +7,9 @@ body {
 .gray {
   background-color: #f8f8f8;
 }
+.red {
+  color: #ff0000;
+}
 
 h3 {
   border-left: 5px solid #48832C;
