@@ -22,7 +22,22 @@ h4 {
   padding-left: 7px;
   margin-left: 5px;
 }
+/*****phirip追記　2021/11/16 ここから　****/
 
+.no_deco {
+  border-left: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.f_bold{
+  font-weight: bold;
+  font-size: 15px;
+}
+.dis_no{
+  list-style-type: none;
+}
+
+/*****phirip追記　2021/11/16 ここまで ****/
 .h-title{
   //border-left:7px solid #48832C;
   //border-bottom:1px solid #48832C;
