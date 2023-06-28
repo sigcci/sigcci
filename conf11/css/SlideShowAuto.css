@@ -1,0 +1,188 @@
+/*自動スライドショーに関する内容を記述　ボタンによる操作はない*/
+/*アニメーションによるスライドショーを行う。アニメーションは周りと独立しているのでスライドショーが大きくなりすぎることはないが、クリックなどが出来ない。*/
+/* :::::: slideshow :::::: */
+
+#wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#slideshow {
+  position: relative;
+  width: 100%;
+}
+
+.slideContents {
+  position: relative;
+  background: lightSeaGreen;
+  text-align: center;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.slideContents,
+.slideContents section {
+  width: 100%;
+  height: auto;/*ここでスライドショーのサイズを調整する*/
+}
+
+.slideContents section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-transition: opacity .6s, -webkit-transform .6s;
+  transition: opacity .6s, transform .6s;
+}
+
+.slideContents section img {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  max-width: 100%;
+  height: auto;
+  padding: 0 50px;
+  vertical-align: middle;
+}
+
+/* :::::: contents :::::: */
+
+.slideContents section {
+  opacity: 1.0;/*透明度 0(透明)~1.0(不透明)*/
+}
+
+.slideContents section .contents {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  position: absolute;/*位置指定を有効に*/
+  top: 0;
+  left: 50%;
+  width: 600px;
+  height: 200px;
+  margin-left: -300px;
+  padding: 20px;
+}
+
+.slideContents section h1,
+.slideContents section p {
+  color: lightseagreen;
+  opacity: 1.0;
+}
+
+.slideContents section h1 {
+  margin: 0px 0px 20px 0px;/*上、右、左、下　のマージン*/
+  font-size: 40px;
+}
+
+.slideContents section p {
+  font-size: 21px;
+}
+
+/* :::::: slideshow mechanism :::::: * chekced が付いたところの画像が配置され、画像のサイズにスライドショーのサイズが合わされる
+
+#switch1:checked ~ #slideshow .slideContents #slide1,
+#switch2:checked ~ #slideshow .slideContents #slide2,
+#switch3:checked ~ #slideshow .slideContents #slide3,
+#switch4:checked ~ #slideshow .slideContents #slide4,
+#switch5:checked ~ #slideshow .slideContents #slide5 {
+  z-index: 1;
+  position: relative;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+#switch1:checked ~ #slideshow .slideContents #slide1,
+#switch2:checked ~ #slideshow .slideContents #slide2,
+#switch3:checked ~ #slideshow .slideContents #slide3,
+#switch4:checked ~ #slideshow .slideContents #slide4,
+#switch5:checked ~ #slideshow .slideContents #slide5 {
+  opacity: 1;
+}
+
+#switch1:checked ~ #slideshow .slideContents #slide5,
+#switch1:checked ~ #slideshow .slideContents #slide4,
+#switch2:checked ~ #slideshow .slideContents #slide1,
+#switch2:checked ~ #slideshow .slideContents #slide5,
+#switch3:checked ~ #slideshow .slideContents #slide2,
+#switch3:checked ~ #slideshow .slideContents #slide1,
+#switch4:checked ~ #slideshow .slideContents #slide3,
+#switch4:checked ~ #slideshow .slideContents #slide2,
+#switch5:checked ~ #slideshow .slideContents #slide4,
+#switch5:checked ~ #slideshow .slideContents #slide3 {
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+#switch1:checked ~ #slideshow .slideContents #slide3,
+#switch2:checked ~ #slideshow .slideContents #slide4,
+#switch3:checked ~ #slideshow .slideContents #slide5,
+#switch4:checked ~ #slideshow .slideContents #slide1,
+#switch5:checked ~ #slideshow .slideContents #slide2,
+#switch1:checked ~ #slideshow .slideContents #slide4,
+#switch2:checked ~ #slideshow .slideContents #slide5,
+#switch3:checked ~ #slideshow .slideContents #slide1,
+#switch4:checked ~ #slideshow .slideContents #slide2,
+#switch5:checked ~ #slideshow .slideContents #slide3 {
+  transition-duration: 0s;
+}
+*/
+/* :::::: timer mechanism ::::::*/
+/*アニメーションによって描画する　アニメーションなので独立して使えるが、選択ができない*/
+.slideContents section {
+  -webkit-animation: autoplay 30s infinite;
+  animation: autoplay 30s infinite;
+}
+
+.slideContents section {
+  -webkit-transform: none;
+  transform: none;
+  transition: none;
+}
+
+.slideContents #slide1 {
+  position: relative;
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+.slideContents #slide2 {
+  -webkit-animation-delay: -24s;
+  animation-delay: -24s;
+}
+
+.slideContents #slide3 {
+  -webkit-animation-delay: -18s;
+  animation-delay: -18s;
+}
+
+.slideContents #slide4 {
+  -webkit-animation-delay: -12s;
+  animation-delay: -12s;
+}
+
+.slideContents #slide5 {
+  -webkit-animation-delay: -6s;
+  animation-delay: -6s;
+}
+
+@-webkit-keyframes autoplay {
+  0% { -webkit-transform: translateX(0); }
+  16% { -webkit-transform: translateX(0); }
+  20% { -webkit-transform: translateX(-100%); }
+  20.001% { -webkit-transform: translateX(100%); }
+  96% { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(0); }
+}
+@keyframes autoplay {
+  0% { transform: translateX(0); }
+  16% { transform: translateX(0); }
+  20% { transform: translateX(-100%); }
+  20.001% { transform: translateX(100%); }
+  96% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
