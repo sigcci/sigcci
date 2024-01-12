@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>第11回市民共創知研究会「みらいらぼ なごや 2023」 | 市民共創知研究会(JSAI SIG-CCI)</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99049176-1', 'auto');
+  ga('send', 'pageview');
+</script>
+  </head>
+
+<body>
+  <!-- ロード画面開始 -->
+  <!-- ロード画面終了 -->
+
+  <!-- 通常画面開始 -->
+  <div id="wrap">
+    <!-- ヘッダー(ナビバー )開始 -->
+    <div class="nav-ber">
+      <nav class="navbar navbar-default navbar-top">
+
+        <div class="container" style="margin-left: 30px;">
+
+          <div class="navbar-header">
+            <!--タイトル-->
+            <a class="navbar-brand navbar-title" href="index.html">第11回市民共創知研究会</a>
+            <!--トグルボタンの設置-->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-content">
+              <span class="icon-bar"></span><!-- トグルボタンの横棒　その１  -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+
+         <div id="nav-content" class="collapse navbar-collapse">
+		             <!--リンクのリスト メニューリスト-->
+		             <ul class="nav navbar-nav">
+		               <li><a href="index.html">ホーム</a></li>
+		               <li><a href="../about.html">研究会について</a></li>
+		             </ul>
+		           </div>
+
+		           <!-- サイドメニュー開始 -->
+		           <input type="checkbox" id="navTgl" class="navbar-toggle">
+		           <label for="navTgl" class="open side">≡</label>
+		           <label for="navTgl" class="close"></label>
+		           <nav class="menu">
+		             <h2>menu</h2>
+		             <ul>
+		               <li><a href="#" class="scroll">ページトップ</a></li>
+		             </ul>
+		           <!-- サイドメニュー終了 -->
+		           </nav>
+		         </div>
+		       </nav>
+		     </div>
+		     <!-- ヘッダー終了 -->
+
+		     <!-- パンくずリスト開始 -->
+		     <div class="ribbon-wrap" style="margin-top: -20px;">
+		       <div class="content-wrap">
+		         <ol class="ribbon-breadcrumb-list">
+		           <li class="ribbon-breadcrumb-item"><a href="https://sigcci.github.io/sigcci/" class="ribbon-breadcrumb">市民共創知研究会HP</a></li>
+		           <li class="ribbon-breadcrumb-item Last"><span class="ribbon-breadcrumb">ホーム</span></li>
+		         </ol>
+		       </div>
+		     </div>
+		     <!-- パンくずリスト終了 -->
+
+		     <!-- 主文開始 -->
+		     <div class="container">
+		       <div class="row">
+
+		       <!-- 左メニュー始め -->
+		       <div class="col-xs-12 col-sm-8">
+		         <br><br>
+		         <h5 class="Emphasis2" style="font-size: 15px;">
+		             第11回市民共創知研究会「みらいらぼ なごや 2023」
+		         </h5>
+		         <br>
+        <p>
+          第11回研究会を2023年10月14日(土)・15日(日)になごのキャンパス（名古屋市西区）にてハイブリッド開催致します．今回は，<a href="https://sites.google.com/kyoto-u.ac.jp/sig-consensus/home">電子情報通信学会 第3回合意と共創研究会</a>との共同開催になります。
+	</p>
+	<p>
+	  今回のテーマは、「合意と共創と公民連携」および一般の共創的事例やAI応用です。市民や行政，研究者など様々なステークホルダーの共創・協働により創発される集合知や，そのような共創的プロセスの支援技術，AIやデータ活用による社会課題解決（シビックテック），研究者・技術者と市民の協働（シチズンサイエンス），地方創生，合意形成，社会シミュレーション，その他共創的な活動報告等の発表を募集します．
+        </p>
+         <div class="overview">
+		          <h5 class="Emphasis2" style="font-size: 20px; padding-top:20px;">人工知能学会 市民共創知研究会 第11回研究会<br />「みらいらぼ なごや 2023」</h5>
+          <dl class="">
+            <dt>会期：</dt>
+				<dd>2023年10月14日(土)・15日(日)
+			<dt>発表申込：</dt>
+				<dd><a href="https://www.ai-gakkai.or.jp/sig-system/sigusers/presenter_add/cci/011">発表申込フォーム</a></dd>
+			<dt>発表申込締切：</dt>
+				<dd>2023年9月29日(金)</dd>
+			<dt>原稿提出締切：</dt>
+				<dd>2023年10月6日(金)</dd>
+			<dt>参加申込：</dt>
+				<dd><a href="https://www.ai-gakkai.or.jp/sig-system/sigusers/add/cci/011">参加申込フォーム</a></dd>
+			<dt>会場：</dt>
+				<dd><a href="https://nagono-campus.jp/">なごのキャンパス・コワーキングスペース他</a> ＆ <a href="https://us02web.zoom.us/j/86156445011?pwd=YjFzdXh2UW9mdDZEMkZiQlZiM0VaQT09">Zoom</a></dd>
+			<dt>主催：</dt>
+                <dd>人工知能学会 市民共創知研究会，電子情報通信学会 合意と共創研究会</dd>
+		  <dt>協力：</dt>
+		  <dd>スターキャット・ケーブルネットワーク（ローカル5G環境提供）、CIVICTECH.TV（ハイブリッド開催・オンライン配信）</dd>
+  	    	<dt>研究会参加費：</dt>
+  	    		<dd>無料</dd>
+	    	<dt>予稿集：</dt>
+	    		<dd><a href="https://www.jstage.jst.go.jp/browse/jsaisigtwo/2023/CCI-011/_contents/-char/ja">J-STAGE 人工知能学会第二種研究会資料 2023巻, CCI-011号</a></dd>
+	    	<dt>発表への投票フォーム：</dt>
+	    		<dd><a href="https://forms.gle/SnFvJmju4zbHknLj7">https://forms.gle/SnFvJmju4zbHknLj7</a></dd>
+            <dt>プログラム：</dt>
+	    		<dd>
+<h5>10月14日(土)</h5>
+<ul>
+  <li>13:00-13:10 オープニング</li>
+  <li>13:10-14:00 招待講演<br>
+    <b>産学官民連携による地域DX 〜利用者視点でのデジタル社会の実現に向けて〜</b><br>
+    ○浦田真由（名古屋大学 大学院情報学研究科）
+  </li>
+  <li>14:10-15:25 発表・対話セッション1</li>
+  <ul>
+    <li>14:10-14:35 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_01">研究者の関わる共創―大学院大学における事例の報告―</a><br>
+      ○加藤晶太, 越前屋俵太, 西村拓一 (北陸先端科学技術大学院大学)
+      <ul>
+	<li>14:10-14:22 発表</li>
+	<li>14:22-14:34 対話</li>
+      </ul>
+    </li>
+    <li>14:35-15:00 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_02">スクラム開発手法を用いたGPT-3によるキャッチコピー生成WEBアプリ開発事例</a><br>
+      ○嶋崎裕介, 竹内信輔, 稲垣直人, 山口一輝, 松本宇宙, 古谷公哉 (NPO法人リネーブル)
+      <ul>
+	<li>14:35-14:47 発表</li>
+	<li>14:47-14:59 対話</li>
+      </ul>
+    </li>
+    <li>15:00-15:25 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_03">不完全な指示に対する対話型情報補完システムの検討</a><br>
+      ○橋本慧海, 白松俊 (名古屋工業大学)
+      <ul>
+	<li>15:00-15:12 発表</li>
+	<li>15:12-15:24 対話</li>
+      </ul>
+    </li>
+  </ul>
+  <li>15:35-16:00 アイスブレイク＠体育館</li>
+  <li>16:10-17:25 発表・対話セッション2</li>
+  <ul>
+    <li>16:10-16:35 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_04">デジタル田園都市国家構想が目指す「地域DXプロデューサー」の育成に関する実践的検証について</a><br>
+      ○三宅創太 (地域リノベーション協同組合)
+      <ul>
+	<li>16:10-16:22 発表</li>
+	<li>16:22-16:34 対話</li>
+      </ul>
+    </li>
+    <li>16:35-17:00 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_05">ハイブリディティから見た災害復興ランドスケープ：レジリント社会を構築する政策形成過程の概念化</a><br>
+      ○加藤知愛, 三角幸子 (北海道大学)
+      <ul>
+        <li>16:35-16:47 発表</li>
+	<li>16:47-16:59 対話</li>
+
+      </ul>
+    </li>
+    <li>17:00-17:25 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_06">マンダラ集合知に基づく生成AIを用いた産官学広域防災プロジェクトの課題解決シミュレーション</a><br>
+      ○小林信三 (NPO法人 CCC-TIES), 加藤知愛 (北海道大学), 青木成一郎 (京都情報大学院大学), 楢木隆彦 (田園社会イニシアティブ株式会社), 上石陽子 (クラブツーリズム株式会社)
+      <ul>
+	<li>17:00-17:12 発表</li>
+	<li>17:12-17:24 対話</li>
+      </ul>
+    </li>
+
+  </ul>
+</ul>
+<h5>10月15日(日)</h5>
+<ul>
+  <li>10:30-12:20 中学生向け かがくであそぼ！ワークショップ<br>
+    <a href="http://www.cstc.or.jp/whats_new.php?d_id=432">「はじめてのAI教室 ChatGPT未来ラボ：きみのアイデアで新しい物語をつくる！」</a><br>
+    (<a href="http://www.cstc.or.jp/">中部科学技術センター</a>との共催)  
+  </li>
+  <li>13:20-14:35 発表・対話セッション3</li>
+  <ul>
+    <li>13:20-13:45 名古屋市の先進技術の社会実証を支援する事業「Hatch Meets」について<br>
+      ○市川博之 (一般社団法人シビックテック・ラボ)
+      <ul>
+        <li>13:20-13:32 発表</li>
+        <li>13:32-13:44 対話</li>
+      </ul>
+    </li>
+    <li>13:45-14:10 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_07">ローカル5G環境におけるLiDARを利用したボッチャの遠隔ビューアの試作</a><br>
+      ○向直人 (椙山女学園大学)
+      <ul>
+        <li>13:45-13:57 発表</li>
+        <li>13:57-14:09 対話</li>
+      </ul>
+    </li>
+    <li>14:10-14:35 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_08">和算題材によるプログラミング入門講座のねらい</a><br>
+      ○内田保雄 (宮崎産業経営大学), 井田志乃 (宮崎公立大学), 西田若葉 (宮崎産業経営大学)
+      <ul>
+        <li>14:10-14:22 発表</li>
+        <li>14:22-14:34 対話</li>
+      </ul>
+    </li>
+  </ul>
+<li>14:50-16:30 発表・対話セッション4</li>
+<ul>
+  <li>14:50-15:15 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_09">GPT-3.5を用いた社会問題に関する合意形成シミュレータの試作および改善手法の検討</a><br>
+    ○松本宇宙, 白松俊 (名古屋工業大学), 岩田崇 (株式会社ハンマーバード／慶応義塾大学), 水本武志 (ハイラブル株式会社)
+    <ul>
+      <li>14:50-15:02 発表</li>
+      <li>15:02-15:14 対話</li>
+    </ul>
+  </li>
+  <li>15:15-15:40 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_10">複合的合意形成プロセスの開発</a><br>
+    ○朝康博 (日立製作所), 加藤猛 (京都大学), 嶺竜治 (日立製作所)
+    <ul>
+      <li>15:15-15:27 発表</li>
+      <li>15:27-15:39 対話</li>
+    </ul>
+  </li>
+  <li>15:40-16:05 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_11">福井県越前市の二つの高校における合意形成実験の実施報告</a><br>
+    ○神崎宣次 (南山大学 国際教養学部), 朝康博 (日立製作所／日立京大ラボ)
+    <ul>
+      <li>15:40-15:52 発表</li>
+      <li>15:52-16:04 対話</li>
+    </ul>
+  </li>
+  <li>16:05-16:30 <a href="https://doi.org/10.11517/jsaisigtwo.2023.CCI-011_12">「市民参加型合意形成プラットフォーム」を活用した行政-市民間の地域共創事例と共創プロセスにおける技術活用</a><br>
+    ○藤井海 (株式会社Liquitous)
+    <ul>
+      <li>16:05-16:17 発表</li>
+      <li>16:17-16:29 対話</li>
+    </ul>
+  </li>
+</ul>
+  <li>16:45-17:00 振り返り</li>
+  <li>17:00-17:30 表彰式・クロージング</li>
+</ul>
+
+
+</dd>
+
+ <a name="award"></a>	
+<dt>研究会独自賞：</dt>
+<dd>
+	      <ul>
+	<li>ベストアクティビティ賞：「マンダラ集合知に基づく生成AIを用いた産官学広域防災プロジェクトの課題解決シミュレーション」小林信三, 加藤知愛, 青木成一郎, 楢木隆彦, 上石陽子</li>
+	<li>ベストペーパー賞：「複合的合意形成プロセスの開発」朝康博, 加藤猛, 嶺竜治</li>
+	<li>ベストプラクティス賞：「不完全な指示に対する対話型情報補完システムの検討」橋本慧海, 白松俊</li>
+	      </ul>
+	      おめでとうございます！
+	    </dd>
+</dl>
+</div>
+      </div>
+      <!-- 左メニュー終わり -->
+
+      <!-- 右メニュー開始 -->
+　　　　　<div class="col-xs-12 col-sm-4">
+
+          <br><br><br>
+          <h3>目次</h3>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="../about.html">研究会について</a></li>
+          <li>スケジュール(準備中)</li>
+          <li>スポンサー(準備中)</li>
+          <li>参加申し込み(準備中)</li>
+          <li>原稿執筆案内(準備中)</li>
+        </ul>
+        <!--h3>過去の研究会</h3-->
+        <h3>関連リンク</h3>
+        <ul>
+          <li><a href="https://sigcci.github.io/sigcci/" target="_blank">市民共創知研究会</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/confs/sig-cci1.html" target="_blank">第1回市民共創知研究会@岩手県遠野市 遠野ふるさと村</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf2/index.html" target="_blank">第2回市民共創知研究会@長崎県対馬市</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf3/index.html" target="_blank">第3回市民共創知研究会@愛知県名古屋市</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf4/index.html" target="_blank">第4回市民共創知研究会@石川県</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf5/index.html" target="_blank">第5回市民共創知研究会@島根県</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf6/index.html" target="_blank">第6回市民共創知研究会@人工知能学会</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf7/index.html" target="_blank">第7回市民共創知研究会@オンライン</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf8/index.html" target="_blank">第8回市民共創知研究会@オンライン</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf9/index.html" target="_blank">第9回市民共創知研究会 みらいらぼ とおの 2022</a></li>
+          <li><a href="https://sigcci.github.io/sigcci/conf10/index.html" target="_blank">第10回市民共創知研究会@慶応義塾大学</a></li>
+        </ul>
+	     
+        <!---
+        <h3 class="download">ダウンロード</h3>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Common/20170606_SIGCCI02_Guide.pdf')">研究会のしおり</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="Files/Common/20170606_SIGCCI02_Guide.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/Common/20170606_SIGCCI02_Guide.pdf" download="20170606_SIGCCI02_Guide.pdf">ダウンロード</a></li>
+          </ul>
+        </div>
+        <br><br>
+        <div class="btn-group">
+          <button type="button" class="btn btn-info" onclick="window.open('Files/Common/20170606_SIGCCI02_CFP.pdf')">論文募集要項　</button>
+          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="Files/Common/20170606_SIGCCI02_CFP.pdf" target="_blank">オープン</a></li>
+            <li><a href="Files/Common/20170606_SIGCCI02_CFP.pdf" download="20170606_SIGCCI02_CFP.pdf">ダウンロード</a></li>
+          </ul>
+        </div>
+     </div> -->  
+     <!-- 右メニュー終わり -->
+
+    </div>
+  </div>
+    <!-- 主文終了 -->
+    <div style="height: 50px;"></div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">目次</p>
+            <ul class="footer-list">
+              <li><a href="index.html">ホーム</a></li>
+              <li><a href="html/about.html">研究会について</a></li>
+              <li>スケジュール(準備中)</li>
+              <li>スポンサー(準備中)</li>
+              <li>参加申し込み(準備中)</li>
+              <li>原稿執筆案内(準備中)</li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">関連リンク</p>
+            <ul class="footer-list">
+              <li><a href="https://sigcci.github.io/sigcci/" target="_blank">市民共創知研究会</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/confs/sig-cci1.html" target="_blank">第1回市民共創知研究会@岩手県遠野市 遠野ふるさと村</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf2/index.html" target="_blank">第2回市民共創知研究会@長崎県対馬市</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf3/index.html" target="_blank">第3回市民共創知研究会@愛知県名古屋市</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf4/index.html" target="_blank">第4回市民共創知研究会@石川県</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf5/index.html" target="_blank">第5回市民共創知研究会@島根県</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf6/index.html" target="_blank">第5回市民共創知研究会@島根県</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf7/index.html" target="_blank">第7回市民共創知研究会@オンライン</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf8/index.html" target="_blank">第8回市民共創知研究会@オンライン</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf9/index.html" target="_blank">第9回市民共創知研究会 みらいらぼ とおの 2022</a></li>
+              <li><a href="https://sigcci.github.io/sigcci/conf10/index.html" target="_blank">第10回市民共創知研究会@慶応義塾大学</a></li>
+              <li><a href="http://mirailab.srmt.nitech.ac.jp/" target="_blank">みらいらぼ</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <p class="footer-subtitle">ダウンロード</p>
+            <ul class="footer-list">
+            </ul>
+          </div>
+        </div>
+
+        <br>
+        <div class="text-center" style="color: #777">
+          <h4 style="border-left: none;">第10回市民共創知研究会</h4>
+          <p>© 2019 JSAI Special Interest Group on Crowd Co-creation</p>
+        </div>
+      </div>
+    </footer>
+
+  </div></div>
+  <!-- 通常画面終了 -->
+
+  <!-- BootstrapのCSS読み込み -->
+   <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- jQuery読み込み -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   <!-- BootstrapのJS読み込み -->
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <script src="js/Scroll.js"></script>
+   <link rel="stylesheet" href="css/BS_OverWrite.css">
+   <link rel="stylesheet" href="css/FlexBoxStyle.css">
+   <link rel="stylesheet" href="css/base1.css">
+   <link rel="stylesheet" href="css/SideMenu.css">
+   <link rel="stylesheet" href="css/Common.css">
+   <link rel="stylesheet" href="css/Loading.css">
+   <link rel="stylesheet" href="css/style.css" />
+   <link rel="stylesheet" href="css/confs/sig-cci1.css" />
+   <link rel="stylesheet" href="css/ihover.css">
+   <link rel="stylesheet" href="css/lightbox.css">
+</body>
+</html>
