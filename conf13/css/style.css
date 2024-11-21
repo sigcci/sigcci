@@ -1,0 +1,130 @@
+
+/***** general *****/
+body {
+  //padding-top: 70px;
+}
+
+.gray {
+  background-color: #f8f8f8;
+}
+.red {
+  color: #ff0000;
+}
+
+h3 {
+  border-left: 5px solid #48832C;
+  border-bottom:1px solid #48832C;
+  padding-left: 7px;
+}
+
+h4 {
+  border-left: 3px solid #48832C;
+  padding-left: 7px;
+  margin-left: 5px;
+}
+/*****phirip追記　2021/11/16 ここから　****/
+
+.no_deco {
+  border-left: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.f_bold{
+  font-weight: bold;
+  font-size: 15px;
+}
+.dis_no{
+  list-style-type: none;
+}
+
+/*****phirip追記　2021/11/16 ここまで ****/
+.h-title{
+  //border-left:7px solid #48832C;
+  //border-bottom:1px solid #48832C;
+  //padding:3px 10px;
+}
+.h-name{
+  margin:0;
+}
+.h-comment{
+  margin:5px 0 0 8px;
+  color:#999;
+  font-size:0.95em;
+}
+
+/***** フォトライブラリー *****/
+#photoes{
+  //background:#afa;
+  position: relative;
+}
+  #photoes_menu{
+    background: none repeat scroll 0 0 #f0f8ff;
+    position: absolute;
+    max-height: 100vh;
+    right: 10px;
+    top: 10px;
+  }
+  .scr {
+  overflow: scroll;   /* スクロール表示 */
+
+
+/***** cardについて *****/
+.card {
+  width: 270px;
+  height: 380px;
+  margin: 5px 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.card:hover{
+  opacity: 0.9;
+}
+.card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.card-content {
+  padding: 5px;
+}
+.card-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+.card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.card-name {
+  margin-top: 20px;
+  color: #777;
+  font-size: 20px;
+}
+
+/****** imgのリサイズ *****/
+.out_cover_50x50 {
+    display: inline-block;
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    background-size: cover;
+}
+.out_cover_210x280 {
+    display: inline-block;
+    background-color: #ccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 5px;
+    width: 280px;
+    height: 210px;
+    border: 1px solid #ccc;
+    background-size: cover;
+}
