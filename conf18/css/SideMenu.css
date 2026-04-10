@@ -1,0 +1,190 @@
+/*ドロワーボタンに関する内容を記述*/
+@font-face {
+  font-family: "Ubuntu Condensed";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Ubuntu Condensed"),
+       local("UbuntuCondensed-Regular"),
+       url(UbuntuCondensed-Regular.woff) format("woff");
+}
+
+/* :::::: contents :::::: */
+.contents {
+  -webkit-transition: -webkit-transform .6s;
+  transition: transform .6s;
+}
+
+#navTgl:checked ~ .contents {
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+}
+
+/* :::::: toggle button :::::: */
+
+#navTgl {
+  display: none;
+  overflow: hidden;
+}
+
+label[class~="side"] {
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.open.side {/*ドロワーボタンが開く前の状態*/
+  z-index: 1036;/**ヘッダーバーの z-index が 1030 なのでそれ以上にする必要がある*/
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: lightSeaGreen;
+  font-size: 2em;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: background-color .6s, -webkit-transform .6s;
+  transition: background-color .6s, transform .6s;
+  position: absolute;
+}
+
+#navTgl:checked + .open {/*開いた時のボタンの色*/
+  background-color: indianRed;/*インディアン・レッド*/
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);/*右に250px ずれる*/
+}
+
+.close {/*ドロワーボタンが開いてから*/
+  pointer-events: none;
+  z-index: 1;/*一番前へ押し出す*/
+  width: 100%;/*画面いっぱいに広げる*/
+  height: 100%;/*画面いっぱいに広げる*/
+  transition: background-color .6s;
+}
+
+#navTgl:checked ~ .close {
+  pointer-events: auto;
+  background-color: rgba(0,0,0,.3);
+}
+
+/* :::::: drawer menu :::::: */
+/*現れるサイドメニュー*/
+.menu {
+  z-index: 1035;/**ヘッダーバーの z-index が 1030 なのでそれ以上にする必要がある*/
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;/*縦いっぱいに広げる*/
+  padding: 10px;
+  background-color: rgba(0,0,0,.6);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-transition: -webkit-transform .6s;
+  transition: transform .6s;
+}
+
+#navTgl:checked ~ .menu {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.menu h2,
+.menu li a {
+  color: white;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+.menu ul,
+header nav ul {
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid rgba(255,255,255,.6);
+  font-size: .8em;
+  line-height: 1.4;
+}
+
+.menu li:first-child {
+  border-top: 1px solid rgba(255,255,255,.6);
+}
+
+.menu li a,
+header nav li a {
+  display: block;
+  padding: 1em 2em;
+  text-decoration: none;
+  transition: background-color .6s;
+}
+
+.menu li a:hover {
+  background-color: black;
+}
+
+
+/* :::::: article :::::: */
+
+article {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 647px;
+  margin: 0 auto 100px;
+  padding: 0 10px;
+}
+
+section {
+  margin: 50px 0;
+}
+
+section h2,
+figure img,
+figcaption {
+  margin-bottom: 1em;
+}
+
+section h2 {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+figure {
+  position: relative;
+  padding-bottom: 50px;
+}
+
+#wrapper figure img {
+  max-width: calc(100% - 10px);
+}
+
+figure img {
+  height: auto;
+  padding: 5px;
+  background-color: rgba(255,255,255,.6);
+}
+
+figcaption {
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+figcaption a {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 2em;
+  color: white;
+  background: lightSeaGreen;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+figcaption a:hover {
+  background: indianRed;
+}

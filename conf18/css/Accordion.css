@@ -1,0 +1,58 @@
+div[class="accordion"] {
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+div[class="accordion"] div[class="ac-content"] {
+	margin: 0 10px;
+}
+
+div[class="accordion"] input {
+	display: none;
+}
+
+div[class="accordion"] label {
+	display: block;
+	background: #9fb7d4;
+	cursor: pointer;
+	padding: 10px;
+	border-bottom: 1px solid #fff;
+  border-left: 3px solid #48832C;
+}
+
+div[class="accordion"] label:hover {
+	background: #ccc;
+}
+
+div[class="accordion"] div[class~="ac-cont"] {
+	transition: 0.2s;
+	height: 0;
+	overflow: hidden;
+	background: #ddd;
+	padding: 0 10px;
+}
+div[class="accordion"] input:checked ~ .ac-cont {/*  accordionクラス中の div の中の クリックされた input の下の ac-contクラス*/
+	height: auto;
+	padding: 10px;
+}
+
+div[class="accordion"] input:not(checked) +label  span[class="glyphicon glyphicon-chevron-right"]{
+	display: inline;
+	color: green;
+}
+
+
+div[class="accordion"] input:checked +label span[class="glyphicon glyphicon-chevron-right"]{
+	display: none;
+}
+
+div[class="accordion"] input:not(checked) +label  span[class="glyphicon glyphicon-chevron-down"]{
+	display: none;
+}
+
+
+div[class="accordion"] input:checked +label span[class="glyphicon glyphicon-chevron-down"]{
+	display: inline;
+	color: red;
+}

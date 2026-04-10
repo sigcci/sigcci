@@ -1,0 +1,105 @@
+/*BootStrap に関連するの上書きを行う*/
+/*スライド関連要素の上書き*/
+div[class="carousel-inner"] img{/* class="carousel-inner" を持つ div の中の img 要素*/
+  margin: auto;
+}
+
+div[class="carousel-inner"] img{
+    width: 100%;
+    height: auto;
+    /*min-width: 80%;
+    max-height: 100%;*/
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div[class="navbar-brand footer"]{
+  line-height: normal;
+  padding: 0px;
+  font-size: 11px;
+  clear: left;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 540px;
+}
+
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+  div[class~="double-fw-Text"]{width: 35%;}
+}
+
+
+@media screen and (min-width : 768px){/*横幅が768pxを上回った時*/
+    div[class="carousel-inner"] img{ max-height:250px;}
+    div[class="navbar-brand footer"]{font-size: 14px;}
+}
+
+@media screen and (min-width : 1024px) {/*横幅が1024pxを上回った時*/
+    div[class="carousel-inner"] img{ max-height:600px;}
+    div[class="navbar-brand footer"]{font-size: 18px;}
+}
+
+@media screen and (min-width : 1536px) {/*横幅が1536pxを上回った時*/
+    div[class="carousel-inner"] img{ max-height:800px;}
+    div[class="navbar-brand footer"]{font-size: 18px;}
+}
+
+nav[class="navbar navbar-default navbar-fixed-bottom"]{
+  height:25px;
+  padding-right: 5px;
+}
+nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+  min-height: 25px;
+  height: 25px;
+  font-size:5px;
+}
+@media screen and (min-height : 568px) {/*縦幅が568pxを上回った時*/
+    nav[class="navbar navbar-default navbar-fixed-bottom"]{
+      min-height: 30px;
+      height: 30px;
+      padding-right: 0px;
+    }
+    nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+      padding: 0px;
+    }
+}
+
+@media screen and (min-height : 1024px) {/*縦幅が1024pxを上回った時*/
+    nav[class="navbar navbar-default navbar-fixed-bottom"]{
+      min-height: 40px;
+      height: 40px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 20px;
+    }
+    nav[class="navbar navbar-default navbar-fixed-bottom"] *{
+      padding-left: 5px;
+      padding-right: 5px;
+      font-size: 20px;
+    }
+}
+/*
+@media screen and (max-width:1024px) {
+    .navbar-collapse.collapse {
+        display: block;
+    }
+    .navbar-toggle {
+      display:inline;
+    }
+}
+/**/
+/* スライドの横幅を縮める 開始*/
+.carousel{
+/*  width: 90%;*/
+}
+/* スライドの横幅を縮める 終了*/
+
+/* スライドのワープスクロールボタン 開始*/
+.carousel-indicators .active{
+  background-color: orange;
+}
+
+.carousel-indicators li{
+  border-color: aqua;
+}
+/* スライドのワープスクロールボタン 終了*/
